@@ -1,17 +1,23 @@
 # Kayseretal_EJN24_ccj
 
 Data and analysis code  for the publication 
+
 "Perceived multisensory common cause relations shape the ventriloquism effect but only marginally the trial-wise aftereffect" 
+
 by Christoph Kayser, Herbert Heuer
 Department of Cognitive Neuroscience, Universität Bielefeld, Bielefeld, Germany Leibniz Research Centre for Working Environment and Human Factors, Dortmund, Germany Contact: Christoph.kayser@uni-bielefeld.de.
 
+
 This study featured two experiments consisting of sequences of audio-visual and auditory trials in which we quantified the ventriloquist effect and the trial-wise aftereffect. The main feature is the inclusion of common-cause judgements in the AV trials, contingent on which we analyze the data. The main hypothesis is whetehr each effect depends on the common-cause judgement. 
+
 
 The folder contains the preprocessed data files for each experiment:
 CK12_Exp1_Alldata.mat and CK12_Exp2_Alldata.mat
 
+
 These contain a cell array with the data for each participant AllData{participant}
 this features for each pair of AV-A trials the following information
+
 
 AllData{participant}(:, [VEbias, VAEbias, Vpos, Apos, DVA, Rel, APosA, respAV, respA, CCJ, Trial  sub]).
 
